@@ -1,0 +1,219 @@
+
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    background-color: #FFF0DC;
+    color: #665047;
+}
+
+/* ENCABEZADO */
+
+header {
+    background-color: #f8c9ec;
+    text-align: center;
+    padding: 30px 20px 0;
+}
+
+header img {
+    width: 180px;
+    height: auto;
+    display: block;
+    margin: 0 auto 15px auto;
+    
+}
+
+header img:hover {
+    transform: scale(1.1);
+}
+
+header h1 {
+    color: #9C5145;
+    font-size: 38px;
+    margin: 10px 0;
+}
+
+header p {
+    font-size: 18px;
+    color: #76564C;
+}
+
+/* NAVEGACIÓN */
+
+nav {
+    background-color: #455840;
+    margin-top: 25px;
+    padding: 15px;
+    border-radius: 20px 20px 0 0;
+    text-align: center;
+}
+
+nav a {
+    display: inline-block;
+    background-color: #FFF0DC;
+    color: #865348;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 12px 20px;
+    margin: 5px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+nav a:hover {
+    background-color: #E99A8D;
+    color: white;
+    transform: scale(1.1);
+}
+
+
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 35px 20px;
+}
+
+/* SECCIONES */
+
+section {
+    background-color: #f3ecda;
+    padding: 30px;
+    margin-bottom: 30px;
+    border-radius: 25px;
+    border: 2px solid #EBC5A9;
+    box-shadow: 0 5px 12px #DCC5B5;
+    transition: 0.3s;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+
+section h2 {
+    color: #C46F62;
+    font-size: 28px;
+}
+
+section p {
+    font-size: 17px;
+    line-height: 1.7;
+}
+
+/* TARJETAS */
+
+.tarjetas {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.tarjeta {
+    background-color: #aec59a;
+    padding: 20px;
+    border-radius: 20px;
+    width: 30%;
+    text-align: center;
+    border: 2px solid #B6CDA9;
+    transition: 0.3s;
+}
+
+.tarjeta:hover {
+    transform: scale(1.05);
+    background-color: #d8bdb7;
+}
+
+.tarjeta h3 {
+    color: #9C6559;
+    font-size: 20px;
+}
+
+/* IMAGEN */
+
+section img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 15px;
+    transition: 0.3s;
+}
+
+section img:hover {
+    transform: scale(1.05);
+}
+
+/* BOTONES */
+
+button {
+    background-color: #E99A8D;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 20px;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #A8C6A0;
+    transform: scale(1.08);
+}
+
+/* PIE DE PÁGINA */
+
+footer {
+    background-color: #f8c9ec;
+    text-align: center;
+    padding: 25px;
+    color: #302804;
+}
+
+footer p {
+    margin: 8px;
+}
+
+/* ADAPTACIÓN PARA EL CELULAR */
+
+@media (max-width: 600px) {
+
+    header h1 {
+        font-size: 28px;
+    }
+
+    header img {
+        width: 130px;
+    }
+
+    nav a {
+        display: block;
+        margin: 8px;
+    }
+
+    main {
+        padding: 20px 12px;
+    }
+
+    section {
+        padding: 20px;
+    }
+
+    .tarjetas {
+        display: block;
+    }
+
+    .tarjeta {
+        width: auto;
+        margin-bottom: 15px;
+    }
+
+    section h2 {
+        font-size: 24px;
+    }
+
+    section p {
+        font-size: 16px;
+    }
+}
+
+
